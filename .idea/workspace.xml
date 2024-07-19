@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea51c3d-a0f2-4072-b23b-bb728c217957" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5ea51c3d-a0f2-4072-b23b-bb728c217957" name="Changes" comment="Tested and debugged">
+      <change afterPath="$PROJECT_DIR$/homeWork3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson0.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWork1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeWork1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeWork2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeWork2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,7 @@
     "Python.Tests.executor": "Run",
     "Python.homeWork1.executor": "Run",
     "Python.homeWork2.executor": "Run",
+    "Python.homeWork3.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
@@ -88,6 +86,19 @@
       <option name="presentableId" value="Default" />
       <updated>1721326592735</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tested and debugged">
+      <option name="closed" value="true" />
+      <created>1721407515443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721407515443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tested and debugged" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested and debugged" />
   </component>
 </project>
