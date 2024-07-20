@@ -1,3 +1,3 @@
 sStr = '0123456789'
 
-print(sStr[0:5][::-1])
+print(sStr[-5:])
