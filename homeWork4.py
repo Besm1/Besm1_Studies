@@ -11,5 +11,5 @@ print('Lower case:', my_string.lower())
 print('Whitespaces removed:', my_string.replace(' ', ''))
 # 3.5
 print('1st char:', my_string[0])
-# 3.5
+# 3.6
 print('Last char:', my_string[-1:])   
