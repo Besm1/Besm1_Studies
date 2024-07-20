@@ -1,5 +1,21 @@
-sStr = "And I wonder, still I wonder: who'll stop the rain?"
-
+sStr = "and I wonder, still I wonder: who'll stop the rain?"
 print('String:', '"' + sStr + '" [' + str(len(sStr)) + ']')
 
-print('String:', '"' + sStr.center(60, '_') + '"')
+print('String.capitalize():', '"' + sStr.capitalize() + '"')
+print('String.casefold():', '"' + sStr.casefold() + '"')
+print('String.center:', '"' + sStr.center(60, '_') + '"')
+print("String.count('wonder'):",  str(sStr.count('wonder')) )
+print("'alalala'.count('ala'):",  str('alalala'.count('ala')) )
+print("String.endswith('ain?'):",  sStr.endswith('ain?'))
+print("String.find('wonder'):", sStr.find('wonder'))
+print("String.find('wonder', 3):", sStr.find('wonder', 3))
+print("String.find('wonder', sStr.find('wonder')):", sStr.find('wonder', sStr.find('wonder')+1))
+print("(String+ ' It's {0}').format('me!').capitalize():", (sStr + " It's {0}").format('me!').capitalize())
+print('String.isalpha():',  sStr.isalpha())
+print('String.isalnum():',  sStr.isalnum())
+print('String.isascii():',  sStr.isascii())
+print('String.isidentifier():',  sStr.isidentifier())
+print('String.isascii():',  sStr.isascii())
+print('String.islower():',  sStr.islower())
+print('String.lstrip(" adIn"):',  sStr.lstrip(" adInwo"))
+

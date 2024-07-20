@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ea51c3d-a0f2-4072-b23b-bb728c217957" name="Changes" comment="Tested and debugged">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/String methods.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Lesson0.executor": "Run",
+    "Python.String methods.executor": "Run",
     "Python.Tests.executor": "Run",
     "Python.homeWork1.executor": "Run",
     "Python.homeWork2.executor": "Run",
@@ -123,7 +124,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721501412239</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tested and debugged">
+      <option name="closed" value="true" />
+      <created>1721504467867</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721504467867</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tested and debugged">
+      <option name="closed" value="true" />
+      <created>1721505007145</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721505007146</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
