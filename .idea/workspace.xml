@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea51c3d-a0f2-4072-b23b-bb728c217957" name="Changes" comment="Tested and debugged" />
+    <list default="true" id="5ea51c3d-a0f2-4072-b23b-bb728c217957" name="Changes" comment="Tested and debugged">
+      <change afterPath="$PROJECT_DIR$/module1hard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +58,7 @@
     "Python.homeWork5.executor": "Run",
     "Python.homeWork6.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.module1hard.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -180,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721676192532</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tested and debugged">
+      <option name="closed" value="true" />
+      <created>1721676229610</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721676229610</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Tested and debugged">
+      <option name="closed" value="true" />
+      <created>1721676360121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721676360121</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
