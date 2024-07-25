@@ -3,14 +3,15 @@ primes = []
 not_primes = []
 
 for i in range(1, len(numbers)):
-    is_prime = True
-    for j in range(1, i-1):
-        if numbers[i] % numbers[j] == 0:
-            not_primes.append(numbers[i])
-            is_prime = False
+    is_prime = True # Предположим, что это простое число
+    for j in range(1, i-1): # Переберём делители от 2 до предыдущего числа
+        if numbers[i] % numbers[j] == 0: # Нашли делитель
+            not_primes.append(numbers[i]) # Значит, число не простое - добавим в список составных...
+            is_prime = False  # ... и сбросим флаг простого числа
             break
-    if is_prime:
-        primes.append(numbers[i])
+
+    if is_prime: # Если число всё-таки простое,
+        primes.append(numbers[i]) # то добавим его в список простых
 
 print('Primes:', primes)
 print('Not-Primes:', not_primes)
