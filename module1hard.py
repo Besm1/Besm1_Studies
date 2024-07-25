@@ -4,7 +4,10 @@ students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 avg_grades = []
 
 # Convert unordered set to sorted ordered list
-student_l = sorted(list(students))
+
+student_l = list(students)
+print(student_l)
+student_l.sort()  #sorted(list(students))
 print('Sorted list of students:', student_l)
 
 # Calculate AVG grades and put them into list
