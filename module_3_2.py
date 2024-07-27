@@ -1,4 +1,5 @@
 def check_email(address):
+    # Функция проверяет правильность адреса eMail
     address_ok = False
     address.lower().strip(' ')  # удалим начальные и конечные пробелы
     if address.find(' ') < 0:  # В адресе нет пробелов
@@ -13,6 +14,7 @@ def check_email(address):
 
 
 def send_email(message, recipient, sender='university.help@gmail.com'):
+    # Функция пытается "отправить" письмо и сообщает  результат попытки
     if (check_email(recipient) and check_email(sender)):        # Оба адреса правильны
         if recipient != sender:         # адреса различаются
             if sender == 'university.help@gmail.com':
