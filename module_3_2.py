@@ -1,5 +1,5 @@
 def check_email(address):
-    # Функция проверяет правильность адреса eMail
+    # Функция  проверяет правильность адреса eMail
     address_ok = False
     address.lower().strip(' ')  # удалим начальные и конечные пробелы
     if address.find(' ') < 0:  # В адресе нет пробелов
