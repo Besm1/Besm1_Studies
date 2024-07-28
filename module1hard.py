@@ -15,5 +15,7 @@ for grade in grades: avg_grades.append(sum(grade)/len(grade))
 print('List of average grades:', avg_grades)
 
 # Pack two lists into dictionary
+grades_registry = tuple(zip(student_l, avg_grades))
+print("Students' average grades:", grades_registry)
 grades_registry = dict(zip(student_l, avg_grades))
 print("Students' average grades:", grades_registry)
