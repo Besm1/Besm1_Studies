@@ -1,12 +1,29 @@
-# import this
+# # import this
+#
+# a = '  AbCd  '
+# print('<'+a.lower()+'>')
+# print('<'+a.strip()+'>')
+# print('<'+a.lower().strip()+'>')
+# a.lower().strip()
+# print(a)
+# a = a.lower().strip()
+# print(a)
+#
+# print(' ' in a)
+#
+#
 
-a = '  AbCd  '
-print('<'+a.lower()+'>')
-print('<'+a.strip()+'>')
-print('<'+a.lower().strip()+'>')
-a.lower().strip()
+a = {'a':1, 'b':3, 'c':5}
 print(a)
-a = a.lower().strip()
-print(a)
-
-print(' ' in a)
+b = list(a.items())
+print(b)
+c={1,2,3,4,5}
+print(c)
+print(c.pop())
+print(c)
+d=[1,2,33,4,5,6]
+print(d)
+print(d.pop())
+print(list(d))
+print(list(a))
+print(list(b))

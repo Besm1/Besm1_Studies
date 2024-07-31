@@ -1,21 +1,16 @@
 
 def calculate_structure_sum(*args):
-    if args[0] == None:
+    if args[0] == None or not args[0]:
         return 0
     if isinstance(args[0], int) or isinstance(args[0], float):
         return args[0]
     elif isinstance(args[0], str):
         return len(args[0])
-    elif isinstance(args[0], set) or isinstance(args[0], tuple) or isinstance(args[0], list) or isinstance(args[0], set):
-        s = 0
-        for arg in args[0]:
-            s += calculate_structure_sum(arg)
-        return s
+    elif isinstance(args[0], set) or isinstance(args[0], tuple) or isinstance(args[0], list):
+        lst = list(args[0])
+        return calculate_structure_sum(lst.pop()) + calculate_structure_sum(lst)
     elif isinstance(args[0], dict):
-        s = 0
-        for k, v in args[0].items():
-            s += calculate_structure_sum((k, v))
-        return s
+        return calculate_structure_sum(list(args[0].items()))
 
 
 
