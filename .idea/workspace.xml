@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ea51c3d-a0f2-4072-b23b-bb728c217957" name="Changes" comment="Works well.">
+      <change afterPath="$PROJECT_DIR$/fake_math_4_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_4_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/true_math_4_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Lesson0.executor": "Run",
+    "Python.Module2.executor": "Run",
     "Python.String methods.executor": "Run",
     "Python.Tests.executor": "Run",
     "Python.homeWork1.executor": "Run",
@@ -57,6 +62,7 @@
     "Python.homeWork5.executor": "Run",
     "Python.homeWork6.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.module1.executor": "Run",
     "Python.module1hard.executor": "Run",
     "Python.module2hard.executor": "Run",
     "Python.module3hard.executor": "Run",
@@ -70,10 +76,12 @@
     "Python.module_3_3.executor": "Run",
     "Python.module_3_4.executor": "Run",
     "Python.module_3_5.executor": "Run",
+    "Python.module_4_1.executor": "Run",
+    "Python.true_math_4_1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/b.smirnov/Documents/pythonProjectsForUniversity/Besm1_Studies",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -104,6 +112,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="module1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Besm1_Studies" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.module1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -385,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722457839508</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Works well.">
+      <option name="closed" value="true" />
+      <created>1722511976339</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1722511976339</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

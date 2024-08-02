@@ -27,6 +27,18 @@
 # print(list(d))
 # print(list(a))
 # print(list(b))
+#
+# def prt_x():
+#     nonlocal x
+#
+#     def ccc():
+#         x += 10
+#     print(x)
+#
+# x = 5
+# prt_x()
+# print(x)
 
-for i in range (1, 2):
-    print(i)
+res = lambda a, b, c, x: a * x ** 2 + b * x + c
+
+print(res(1, 2, 3, 4))
