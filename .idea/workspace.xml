@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ea51c3d-a0f2-4072-b23b-bb728c217957" name="Changes" comment="Works well.">
-      <change afterPath="$PROJECT_DIR$/module1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Package1/Package2/Package3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Package1/Package2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Package1/Package2/module 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Package1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Package1/Package2/Package3/module1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Package1/Package2/Package3/module2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,47 +53,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Lesson0.executor": "Run",
-    "Python.Module2.executor": "Run",
-    "Python.String methods.executor": "Run",
-    "Python.Tests.executor": "Run",
-    "Python.homeWork1.executor": "Run",
-    "Python.homeWork2.executor": "Run",
-    "Python.homeWork3.executor": "Run",
-    "Python.homeWork4.executor": "Run",
-    "Python.homeWork5.executor": "Run",
-    "Python.homeWork6.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.module1.executor": "Run",
-    "Python.module1hard.executor": "Run",
-    "Python.module2hard.executor": "Run",
-    "Python.module3hard.executor": "Run",
-    "Python.module3hard_1.executor": "Run",
-    "Python.module_2_2.executor": "Run",
-    "Python.module_2_3.executor": "Run",
-    "Python.module_2_4.executor": "Run",
-    "Python.module_2_5.executor": "Run",
-    "Python.module_3_1.executor": "Run",
-    "Python.module_3_2.executor": "Run",
-    "Python.module_3_3.executor": "Run",
-    "Python.module_3_4.executor": "Run",
-    "Python.module_3_5.executor": "Run",
-    "Python.module_4_1.executor": "Run",
-    "Python.true_math_4_1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/b.smirnov/Documents/pythonProjectsForUniversity/Besm1_Studies",
-    "settings.editor.selected.configurable": "preferences.general"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Lesson0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.String methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homeWork1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homeWork2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homeWork3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homeWork4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homeWork5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homeWork6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module1hard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module2hard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module3hard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module3hard_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_2_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_2_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_2_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_3_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_4_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.true_math_4_1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/b.smirnov/Documents/pythonProjectsForUniversity/Besm1_Studies&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\b.smirnov\Documents\pythonProjectsForUniversity\Besm1_Studies" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\b.smirnov\Documents\pythonProjectsForUniversity\Besm1_Studies\Package1\Package2\Package3" />
+      <recent name="C:\Users\b.smirnov\Documents\pythonProjectsForUniversity\Besm1_Studies\Package1\Package2" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Besm1_Studies" />
       <option name="ENV_FILES" value="" />
@@ -122,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module1.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\b.smirnov\Documents\pythonProjectsForUniversity\Besm1_Studies\Package1\Package2\Package3\module1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -441,7 +452,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722626808173</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Works well.">
+      <option name="closed" value="true" />
+      <created>1722626898210</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1722626898210</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

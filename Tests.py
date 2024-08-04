@@ -1,44 +1,28 @@
-# # import this
-#
-# a = '  AbCd  '
-# print('<'+a.lower()+'>')
-# print('<'+a.strip()+'>')
-# print('<'+a.lower().strip()+'>')
-# a.lower().strip()
-# print(a)
-# a = a.lower().strip()
-# print(a)
-#
-# print(' ' in a)
-#
-#
-#
-# a = {'a':1, 'b':3, 'c':5}
-# print(a)
-# b = list(a.items())
-# print(b)
-# c={1,2,3,4,5}
-# print(c)
-# print(c.pop())
-# print(c)
-# d=[1,2,33,4,5,6]
-# print(d)
-# print(d.pop())
-# print(list(d))
-# print(list(a))
-# print(list(b))
-#
-# def prt_x():
-#     nonlocal x
-#
-#     def ccc():
-#         x += 10
-#     print(x)
-#
-# x = 5
-# prt_x()
-# print(x)
+def calculate_structure_sum(data):
+    total_sum = 0
 
-res = lambda a, b, c, x: a * x ** 2 + b * x + c
+    for element in data:
+        if isinstance(element, (int, float)):  # Если элемент - число
+            total_sum += element
+        elif isinstance(element, str):  # Если элемент - строка
+            total_sum += len(element)
+        elif isinstance(element, (list, tuple)):  # Если элемент - список
+            total_sum += calculate_structure_sum(element)  # Рекурсивный вызов для списка
+        elif isinstance(element, set):  # Если элемент - кортеж
+            total_sum += calculate_structure_sum(tuple(element))  # Рекурсивный вызов для кортежа
+        elif isinstance(element, dict):  # Если элемент - словарь
+            total_sum += sum(len(key) for key in element.keys())  # Сумма длин ключей
+            total_sum += calculate_structure_sum(list(element.values()))  # Сумма по значениям
 
-print(res(1, 2, 3, 4))
+    return total_sum
+
+data_structure = [
+    [1, 2, 3],                     # Сумма: 1 + 2 + 3 = 6
+    {'a': 4, 'b': 5},              # Сумма: длина 'a' + длина 'b' + 4 + 5 = 1 + 1 + 4 + 5 = 11
+    (6, {'cube': 7, 'drum': 8}),   # Сумма: длина 'cube' + длина 'drum' + 6 + 7 + 8 = 4 + 4 + 6 + 7 + 8 = 29
+    "Hello",                       # Длина строки: 5
+    ((), [{(2, 'Urban', ('Urban2', 35))}])  # Сумма: длина 'Urban' + длина 'Urban2' + 2 + 35 = 6 + 8 + 2 + 35 = 51
+]
+
+result = calculate_structure_sum(data_structure)
+print(result)  # Проверяем результат
